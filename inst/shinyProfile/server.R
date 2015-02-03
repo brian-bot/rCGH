@@ -5,10 +5,12 @@ require(grid)
 
 source('helpers.R')
 cat("Loading files...")
+load(file.path(getwd(), "extdata/hg19.rda"))
+load(file.path(getwd(), "extdata/geneDB.rda"))
 segTable <- readRDS(file.path(getwd(), "data/st.rds"))
 geneTable <- readRDS(file.path(getwd(), "data/bg.rds"))
-hg19 <- readRDS(file.path(getwd(), "extdata/hg19.rds"))
-geneDB <- readRDS(file.path(getwd(), "extdata/geneDB.rds"))
+#hg19 <- readRDS(file.path(getwd(), "extdata/hg19.rds"))
+#geneDB <- readRDS(file.path(getwd(), "extdata/geneDB.rds"))
 cat("Done.\n")
 ###########################
 
