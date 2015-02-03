@@ -128,9 +128,9 @@ setMethod('getProfile', 'cghObj',
 setMethod('getSegTable', 'cghObj', function(object) object@segTable)
 setMethod('view', 'cghObj',
           function(object, hg=hg19,...) {
-            path <- "~/Documents/myProjects/cgh_workflow_paper/rCGH_backup/inst/shinyProfile"
+            # path <- "~/Documents/myProjects/cgh_workflow_paper/rCGH_backup/inst/shinyProfile"
             #  path <- file.path(.libPaths()[1], "cghViewer")
-            # system.file("inst", "shinyProfile", package="rCGH")
+            path <- system.file("inst", "shinyProfile", package="rCGH")
             platform <- getInfo(object, "platform")
             if(grepl("Affymetrix", platform)){
               w <- 60
