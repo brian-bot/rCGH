@@ -1,0 +1,16 @@
+# All generic definitions.
+
+# setGeneric('adjustSignal', function(object,...) standardGeneric('adjustSignal'))
+# setGeneric('EMnormalize', function(object,...) standardGeneric('EMnormalize'))
+# setGeneric('SegmentCGH', function(object,...) standardGeneric('SegmentCGH'))
+# setGeneric('byGeneTable', function(object,listId,...) standardGeneric('byGeneTable'))
+# setGeneric('geneOfInt', function(object, geneList,...) standardGeneric('geneOfInt'))
+setGeneric("getInfo", function(object, item = NULL) standardGeneric("getInfo"))
+setGeneric("setInfo", function(object, item = NULL, value = NULL) standardGeneric("setInfo"))
+setGeneric('getByGene', function(object) standardGeneric('getByGene'))
+setGeneric('getCNset', function(object) standardGeneric('getCNset'))
+setGeneric('getDensity', function(object, Title=NULL,...) standardGeneric('getDensity'))
+setGeneric('getParam', function(object) standardGeneric('getParam'))
+setGeneric('getProfile', function(object,...) standardGeneric('getProfile'))
+setGeneric('getSegTable', function(object) standardGeneric('getSegTable'))
+setGeneric('view', function(object,...) standardGeneric('view'))

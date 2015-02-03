@@ -1,0 +1,14 @@
+Package: rCGH
+Type: Package
+Title: aCGH-based genomic profiling
+Version: 1.0
+Date: 2015-02-03
+Authors@R: c(person(given="Frederic", family="Commo", role=c("aut", "cre"), email="fredcommo@gmail.com"),
+        person(given="Brian M.", family="Bot", role="aut"))
+Maintainer: Frederic Commo <frederic.commo@gustaveroussy.fr>
+Description: A comprehensive pipeline for analyzing and visualizing Agilent and Affymetrix CGH data.
+License: GPL (>=2)
+Depends: methods,DNAcopy,ggplot2
+Imports: lattice,plyr,limma,DNAcopy,affy,mclust,aCGH
+Suggests: RUnit,knitr,shiny
+VignetteBuilder: knitr

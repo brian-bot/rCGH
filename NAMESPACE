@@ -1,0 +1,28 @@
+## IMPORTS FROM OTHER PACKAGES
+importFrom(lattice, xyplot)
+importFrom(plyr, dplyr)
+importFrom(limma, loessFit)
+importFrom(affy, tukey.biweight)
+importFrom(aCGH, mergeLevels)
+importFrom(mclust, Mclust)
+
+
+# Imports
+import(methods)
+
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+    "getByGene",
+    "getCNset",
+    "getDensity",
+    "getInfo",
+    "getParam",
+    "getProfile",
+    "getSegTable",
+    "setInfo",
+    "show",
+    "view" 
+)
+exportClasses(
+    "cghObj" 
+)

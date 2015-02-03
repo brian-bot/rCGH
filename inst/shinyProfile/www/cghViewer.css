@@ -1,0 +1,121 @@
+body{
+    background-color: #E6E6E6;
+    font-size: 16px;
+}
+h3 {
+color:#19597A;
+}
+hr{
+  margin: 1px 1px;
+}
+label.radio {
+display: inline-block;
+font-size: 18px;
+margin-left: 16px;
+}
+.radio input[type=\"radio\"] {
+float: none;
+width: 16px;
+height: 16px;
+}
+label.checkbox {
+display: inline-block;
+font-size: 18px;
+vertical-align: bottom;
+margin-left: 16px;
+}
+.checkbox input[type=\"checkbox\"] {
+float: none;
+width: 16px;
+height: 16px;
+}
+select {
+max-width: 300px;
+}
+select.shiny-bound-input {
+font-size: 16px; height:30px;
+}
+input.shiny-bound-input {
+font-size: 16px; height:30px;
+}
+select.selectize.input {
+font-size: 16px;
+}
+label[for=\"center\"] {
+font-size: 18px;
+position: relative;
+top: -5px;
+}
+label[for=\"gain\"] {
+font-size: 18px;
+position: relative;
+top: -5px;
+margin-top: 23px;
+}
+label[for=\"loss\"] {
+font-size: 18px;
+position: relative;
+top: -5px;
+margin-top: 23px;
+}
+label[for=\"Ymin\"] {
+font-size: 18px;
+position: relative;
+top: -5px;
+}
+label[for=\"Ymax\"] {
+font-size: 18px;
+position: relative;
+top: -5px;
+}
+a {
+font-size: 20px;
+}
+table {
+font-size: 15px;
+}
+textarea {
+max-width: 300px;
+}
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+    color: #190f82;
+    cursor: default;
+    background-color: rgba(17, 21, 219, 0.08);
+    border: 1px solid #707070;
+    border-bottom-color: transparent
+}
+.shiny-text-output{
+  font-size: 22px !important;
+}
+.jslider-label span {
+font-size: 15px;
+position: relative;
+top: -2px;
+}
+.jslider-value span {
+font-size: 15px;
+position: relative;
+top: -2px;
+}
+.well {
+max-width: 400px;
+background-color: #DBE9F1;
+border: 2px solid #00006B;
+color: #005C8A;
+}
+.row-fluid .span4{
+  float: left;
+  min-width: 300px;
+  width: auto !important;
+  margin-right: 35px;
+}
+.row-fluid .span8{
+  padding: 15px;
+  float: none !important;
+  width: auto !important;
+  overflow: hidden;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  border: 2px solid #00006B;
+}
+
